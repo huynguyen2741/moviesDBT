@@ -1,0 +1,46 @@
+USE WAREHOUSE COMPUTE_WH;
+USE DATABASE MOVIELENS_DB;
+USE SCHEMA MOVIELENS_DB.RAW;
+
+-- Create the RAW_MOVIES table
+CREATE OR REPLACE TABLE RAW_MOVIES (
+    movieId INTEGER,
+    title STRING,
+    genres STRING
+);
+
+-- Create the RAW_RATINGS table
+CREATE OR REPLACE TABLE RAW_RATINGS (
+    userId INTEGER,
+    movieId INTEGER,
+    rating FLOAT,
+    timestamp BIGINT
+);
+
+-- Create the RAW_TAGS table
+CREATE OR REPLACE TABLE RAW_TAGS (
+  userId INTEGER,
+  movieId INTEGER,
+  tag STRING,
+  timestamp BIGINT
+);
+
+-- Create the RAW_GENOME_SCORES table
+CREATE OR REPLACE TABLE RAW_GENOME_SCORES (
+  movieId INTEGER,
+  tagId INTEGER,
+  relevance FLOAT
+);
+
+-- Create the RAW_GENOME_TAGS table
+CREATE OR REPLACE TABLE RAW_GENOME_TAGS (
+  tagId INTEGER,
+  tag STRING
+);
+
+-- Create the RAW_LINKS table
+CREATE OR REPLACE TABLE RAW_LINKS (
+  movieId INTEGER,
+  imdbId INTEGER,
+  tmdbId INTEGER
+);
