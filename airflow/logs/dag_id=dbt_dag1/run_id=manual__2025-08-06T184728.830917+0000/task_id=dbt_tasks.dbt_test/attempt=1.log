@@ -1,0 +1,37 @@
+[2025-08-06T14:47:49.417-0400] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-08-06T14:47:49.425-0400] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_dag1.dbt_tasks.dbt_test manual__2025-08-06T18:47:28.830917+00:00 [queued]>
+[2025-08-06T14:47:49.429-0400] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_dag1.dbt_tasks.dbt_test manual__2025-08-06T18:47:28.830917+00:00 [queued]>
+[2025-08-06T14:47:49.429-0400] {taskinstance.py:2884} INFO - Starting attempt 1 of 6
+[2025-08-06T14:47:49.440-0400] {taskinstance.py:2907} INFO - Executing <Task(BashOperator): dbt_tasks.dbt_test> on 2025-08-06 18:47:28.830917+00:00
+[2025-08-06T14:47:49.444-0400] {standard_task_runner.py:72} INFO - Started process 31450 to run task
+[2025-08-06T14:47:49.446-0400] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_dag1', 'dbt_tasks.dbt_test', 'manual__2025-08-06T18:47:28.830917+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/dbt_dag.py', '--cfg-path', '/tmp/tmpoet0e94v']
+[2025-08-06T14:47:49.447-0400] {standard_task_runner.py:105} INFO - Job 10: Subtask dbt_tasks.dbt_test
+[2025-08-06T14:47:49.479-0400] {task_command.py:467} INFO - Running <TaskInstance: dbt_dag1.dbt_tasks.dbt_test manual__2025-08-06T18:47:28.830917+00:00 [running]> on host LAPTOP-OO6HSLFU.localdomain
+[2025-08-06T14:47:49.526-0400] {taskinstance.py:3157} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='huy' AIRFLOW_CTX_DAG_ID='dbt_dag1' AIRFLOW_CTX_TASK_ID='dbt_tasks.dbt_test' AIRFLOW_CTX_EXECUTION_DATE='2025-08-06T18:47:28.830917+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-08-06T18:47:28.830917+00:00'
+[2025-08-06T14:47:49.527-0400] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-08-06T14:47:49.528-0400] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-08-06T14:47:49.528-0400] {logging_mixin.py:190} INFO - Current task name:dbt_tasks.dbt_test state:running start_date:2025-08-06 18:47:49.425742+00:00
+[2025-08-06T14:47:49.528-0400] {logging_mixin.py:190} INFO - Dag name:dbt_dag1 and current dag run status:running
+[2025-08-06T14:47:49.528-0400] {taskinstance.py:740} INFO - ::endgroup::
+[2025-08-06T14:47:49.529-0400] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-08-06T14:47:49.530-0400] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'dbt test --project-dir /mnt/c/project/DBT/moviesDBT/dbt --profiles-dir /mnt/c/Users/huyng/.dbt']
+[2025-08-06T14:47:49.537-0400] {subprocess.py:99} INFO - Output:
+[2025-08-06T14:47:50.599-0400] {subprocess.py:106} INFO - [0m18:47:50  Running with dbt=1.8.8
+[2025-08-06T14:47:50.938-0400] {subprocess.py:106} INFO - [0m18:47:50  Registered adapter: snowflake=1.8.4
+[2025-08-06T14:47:51.841-0400] {subprocess.py:106} INFO - [0m18:47:51  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2025-08-06T14:47:51.842-0400] {subprocess.py:106} INFO - There are 2 unused configuration paths:
+[2025-08-06T14:47:51.842-0400] {subprocess.py:106} INFO - - models.moviesDBT.dim
+[2025-08-06T14:47:51.842-0400] {subprocess.py:106} INFO - - models.moviesDBT.fact
+[2025-08-06T14:47:52.068-0400] {subprocess.py:106} INFO - [0m18:47:52  Found 1 model, 1 snapshot, 6 sources, 570 macros
+[2025-08-06T14:47:52.070-0400] {subprocess.py:106} INFO - [0m18:47:52
+[2025-08-06T14:47:52.071-0400] {subprocess.py:106} INFO - [0m18:47:52  Nothing to do. Try checking your model configs and model specification args
+[2025-08-06T14:47:52.557-0400] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-08-06T14:47:52.577-0400] {taskinstance.py:349} INFO - ::group::Post task execution logs
+[2025-08-06T14:47:52.578-0400] {taskinstance.py:361} INFO - Marking task as SUCCESS. dag_id=dbt_dag1, task_id=dbt_tasks.dbt_test, run_id=manual__2025-08-06T18:47:28.830917+00:00, execution_date=20250806T184728, start_date=20250806T184749, end_date=20250806T184752
+[2025-08-06T14:47:52.594-0400] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-08-06T14:47:52.594-0400] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-08-06T14:47:52.595-0400] {logging_mixin.py:190} INFO - Dag name:dbt_dag1 queued_at:2025-08-06 18:47:28.837183+00:00
+[2025-08-06T14:47:52.595-0400] {logging_mixin.py:190} INFO - Task hostname:LAPTOP-OO6HSLFU.localdomain operator:BashOperator
+[2025-08-06T14:47:52.626-0400] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-08-06T14:47:52.636-0400] {taskinstance.py:3924} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-08-06T14:47:52.637-0400] {local_task_job_runner.py:245} INFO - ::endgroup::

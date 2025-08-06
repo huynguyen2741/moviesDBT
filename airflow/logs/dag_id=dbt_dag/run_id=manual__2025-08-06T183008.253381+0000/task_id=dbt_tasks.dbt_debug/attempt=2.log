@@ -1,0 +1,70 @@
+[2025-08-06T14:34:17.568-0400] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-08-06T14:34:17.576-0400] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_dag.dbt_tasks.dbt_debug manual__2025-08-06T18:30:08.253381+00:00 [queued]>
+[2025-08-06T14:34:17.582-0400] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_dag.dbt_tasks.dbt_debug manual__2025-08-06T18:30:08.253381+00:00 [queued]>
+[2025-08-06T14:34:17.582-0400] {taskinstance.py:2884} INFO - Starting attempt 2 of 7
+[2025-08-06T14:34:17.596-0400] {taskinstance.py:2907} INFO - Executing <Task(BashOperator): dbt_tasks.dbt_debug> on 2025-08-06 18:30:08.253381+00:00
+[2025-08-06T14:34:17.599-0400] {standard_task_runner.py:72} INFO - Started process 27910 to run task
+[2025-08-06T14:34:17.603-0400] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_dag', 'dbt_tasks.dbt_debug', 'manual__2025-08-06T18:30:08.253381+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/dbt_dag.py', '--cfg-path', '/tmp/tmprjg9g77d']
+[2025-08-06T14:34:17.604-0400] {standard_task_runner.py:105} INFO - Job 5: Subtask dbt_tasks.dbt_debug
+[2025-08-06T14:34:17.637-0400] {task_command.py:467} INFO - Running <TaskInstance: dbt_dag.dbt_tasks.dbt_debug manual__2025-08-06T18:30:08.253381+00:00 [running]> on host LAPTOP-OO6HSLFU.localdomain
+[2025-08-06T14:34:17.684-0400] {taskinstance.py:3157} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='huy' AIRFLOW_CTX_DAG_ID='dbt_dag' AIRFLOW_CTX_TASK_ID='dbt_tasks.dbt_debug' AIRFLOW_CTX_EXECUTION_DATE='2025-08-06T18:30:08.253381+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-08-06T18:30:08.253381+00:00'
+[2025-08-06T14:34:17.685-0400] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-08-06T14:34:17.685-0400] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-08-06T14:34:17.685-0400] {logging_mixin.py:190} INFO - Current task name:dbt_tasks.dbt_debug state:running start_date:2025-08-06 18:34:17.577315+00:00
+[2025-08-06T14:34:17.685-0400] {logging_mixin.py:190} INFO - Dag name:dbt_dag and current dag run status:running
+[2025-08-06T14:34:17.685-0400] {taskinstance.py:740} INFO - ::endgroup::
+[2025-08-06T14:34:17.686-0400] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-08-06T14:34:17.687-0400] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'dbt debug --project-dir /mnt/c/project/DBT/moviesDBT/dbt --profiles-dir /mnt/c/Users/huyng/.dbt']
+[2025-08-06T14:34:17.694-0400] {subprocess.py:99} INFO - Output:
+[2025-08-06T14:34:18.798-0400] {subprocess.py:106} INFO - [0m18:34:18  Running with dbt=1.8.8
+[2025-08-06T14:34:18.815-0400] {subprocess.py:106} INFO - [0m18:34:18  dbt version: 1.8.8
+[2025-08-06T14:34:18.816-0400] {subprocess.py:106} INFO - [0m18:34:18  python version: 3.12.3
+[2025-08-06T14:34:18.817-0400] {subprocess.py:106} INFO - [0m18:34:18  python path: /home/huynguyen2741/airflow_venv/bin/python3
+[2025-08-06T14:34:18.818-0400] {subprocess.py:106} INFO - [0m18:34:18  os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[2025-08-06T14:34:19.058-0400] {subprocess.py:106} INFO - [0m18:34:19  Using profiles dir at /mnt/c/Users/huyng/.dbt
+[2025-08-06T14:34:19.059-0400] {subprocess.py:106} INFO - [0m18:34:19  Using profiles.yml file at /mnt/c/Users/huyng/.dbt/profiles.yml
+[2025-08-06T14:34:19.060-0400] {subprocess.py:106} INFO - [0m18:34:19  Using dbt_project.yml file at /mnt/c/project/DBT/moviesDBT/dbt/dbt_project.yml
+[2025-08-06T14:34:19.061-0400] {subprocess.py:106} INFO - [0m18:34:19  adapter type: snowflake
+[2025-08-06T14:34:19.062-0400] {subprocess.py:106} INFO - [0m18:34:19  adapter version: 1.8.4
+[2025-08-06T14:34:19.132-0400] {subprocess.py:106} INFO - [0m18:34:19  Configuration:
+[2025-08-06T14:34:19.133-0400] {subprocess.py:106} INFO - [0m18:34:19    profiles.yml file [[32mOK found and valid[0m]
+[2025-08-06T14:34:19.134-0400] {subprocess.py:106} INFO - [0m18:34:19    dbt_project.yml file [[32mOK found and valid[0m]
+[2025-08-06T14:34:19.135-0400] {subprocess.py:106} INFO - [0m18:34:19  Required dependencies:
+[2025-08-06T14:34:19.141-0400] {subprocess.py:106} INFO - [0m18:34:19   - git [[32mOK found[0m]
+[2025-08-06T14:34:19.141-0400] {subprocess.py:106} INFO - 
+[2025-08-06T14:34:19.141-0400] {subprocess.py:106} INFO - [0m18:34:19  Connection:
+[2025-08-06T14:34:19.142-0400] {subprocess.py:106} INFO - [0m18:34:19    account: YVLKKXT-JTC82318
+[2025-08-06T14:34:19.143-0400] {subprocess.py:106} INFO - [0m18:34:19    user: dbt
+[2025-08-06T14:34:19.144-0400] {subprocess.py:106} INFO - [0m18:34:19    database: MOVIELENS_DB
+[2025-08-06T14:34:19.144-0400] {subprocess.py:106} INFO - [0m18:34:19    warehouse: COMPUTE_WH
+[2025-08-06T14:34:19.145-0400] {subprocess.py:106} INFO - [0m18:34:19    role: TRANSFORM
+[2025-08-06T14:34:19.146-0400] {subprocess.py:106} INFO - [0m18:34:19    schema: DEV
+[2025-08-06T14:34:19.147-0400] {subprocess.py:106} INFO - [0m18:34:19    authenticator: None
+[2025-08-06T14:34:19.147-0400] {subprocess.py:106} INFO - [0m18:34:19    oauth_client_id: None
+[2025-08-06T14:34:19.148-0400] {subprocess.py:106} INFO - [0m18:34:19    query_tag: None
+[2025-08-06T14:34:19.149-0400] {subprocess.py:106} INFO - [0m18:34:19    client_session_keep_alive: False
+[2025-08-06T14:34:19.150-0400] {subprocess.py:106} INFO - [0m18:34:19    host: None
+[2025-08-06T14:34:19.150-0400] {subprocess.py:106} INFO - [0m18:34:19    port: None
+[2025-08-06T14:34:19.151-0400] {subprocess.py:106} INFO - [0m18:34:19    proxy_host: None
+[2025-08-06T14:34:19.152-0400] {subprocess.py:106} INFO - [0m18:34:19    proxy_port: None
+[2025-08-06T14:34:19.154-0400] {subprocess.py:106} INFO - [0m18:34:19    protocol: None
+[2025-08-06T14:34:19.154-0400] {subprocess.py:106} INFO - [0m18:34:19    connect_retries: 1
+[2025-08-06T14:34:19.154-0400] {subprocess.py:106} INFO - [0m18:34:19    connect_timeout: None
+[2025-08-06T14:34:19.155-0400] {subprocess.py:106} INFO - [0m18:34:19    retry_on_database_errors: False
+[2025-08-06T14:34:19.155-0400] {subprocess.py:106} INFO - [0m18:34:19    retry_all: False
+[2025-08-06T14:34:19.156-0400] {subprocess.py:106} INFO - [0m18:34:19    insecure_mode: False
+[2025-08-06T14:34:19.157-0400] {subprocess.py:106} INFO - [0m18:34:19    reuse_connections: None
+[2025-08-06T14:34:19.158-0400] {subprocess.py:106} INFO - [0m18:34:19  Registered adapter: snowflake=1.8.4
+[2025-08-06T14:34:20.529-0400] {subprocess.py:106} INFO - [0m18:34:20    Connection test: [[32mOK connection ok[0m]
+[2025-08-06T14:34:20.529-0400] {subprocess.py:106} INFO - 
+[2025-08-06T14:34:20.530-0400] {subprocess.py:106} INFO - [0m18:34:20  [32mAll checks passed![0m
+[2025-08-06T14:34:20.940-0400] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-08-06T14:34:20.955-0400] {taskinstance.py:349} INFO - ::group::Post task execution logs
+[2025-08-06T14:34:20.956-0400] {taskinstance.py:361} INFO - Marking task as SUCCESS. dag_id=dbt_dag, task_id=dbt_tasks.dbt_debug, run_id=manual__2025-08-06T18:30:08.253381+00:00, execution_date=20250806T183008, start_date=20250806T183417, end_date=20250806T183420
+[2025-08-06T14:34:20.972-0400] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-08-06T14:34:20.972-0400] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-08-06T14:34:20.972-0400] {logging_mixin.py:190} INFO - Dag name:dbt_dag queued_at:2025-08-06 18:30:08.266216+00:00
+[2025-08-06T14:34:20.973-0400] {logging_mixin.py:190} INFO - Task hostname:LAPTOP-OO6HSLFU.localdomain operator:BashOperator
+[2025-08-06T14:34:20.983-0400] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-08-06T14:34:20.992-0400] {taskinstance.py:3924} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-08-06T14:34:20.992-0400] {local_task_job_runner.py:245} INFO - ::endgroup::

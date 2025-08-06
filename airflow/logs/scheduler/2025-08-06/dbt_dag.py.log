@@ -1,0 +1,945 @@
+[2025-08-06T14:11:46.812-0400] {processor.py:186} INFO - Started process (PID=21456) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:11:46.813-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:11:46.814-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:11:46.813-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:11:46.817-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:11:46.815-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 8
+    PROJECT_DIR = 
+                  ^
+SyntaxError: invalid syntax
+[2025-08-06T14:11:46.817-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:11:46.834-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.026 seconds
+[2025-08-06T14:12:47.491-0400] {processor.py:186} INFO - Started process (PID=21835) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:12:47.493-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:12:47.494-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:12:47.494-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:12:47.497-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:12:47.496-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 8
+    PROJECT_DIR = 
+                  ^
+SyntaxError: invalid syntax
+[2025-08-06T14:12:47.497-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:12:47.517-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.031 seconds
+[2025-08-06T14:13:19.633-0400] {processor.py:186} INFO - Started process (PID=22047) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:13:19.637-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:13:19.639-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:13:19.638-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:13:19.641-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:13:19.641-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 8
+    PROJECT_DIR = 
+                  ^
+SyntaxError: invalid syntax
+[2025-08-06T14:13:19.642-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:13:19.658-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.029 seconds
+[2025-08-06T14:13:52.325-0400] {processor.py:186} INFO - Started process (PID=22281) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:13:52.329-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:13:52.330-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:13:52.330-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:13:52.333-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:13:52.332-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 8
+    PROJECT_DIR = 
+                  ^
+SyntaxError: invalid syntax
+[2025-08-06T14:13:52.334-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:13:52.352-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.032 seconds
+[2025-08-06T14:14:26.889-0400] {processor.py:186} INFO - Started process (PID=22434) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:14:26.889-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:14:26.890-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:14:26.890-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:14:26.893-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:14:26.892-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 8
+    PROJECT_DIR = 
+                  ^
+SyntaxError: invalid syntax
+[2025-08-06T14:14:26.893-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:14:26.910-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.026 seconds
+[2025-08-06T14:14:57.077-0400] {processor.py:186} INFO - Started process (PID=22665) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:14:57.079-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:14:57.080-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:14:57.080-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:14:57.083-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:14:57.082-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 8
+    PROJECT_DIR = 
+                  ^
+SyntaxError: invalid syntax
+[2025-08-06T14:14:57.083-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:14:57.100-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.027 seconds
+[2025-08-06T14:15:57.637-0400] {processor.py:186} INFO - Started process (PID=23012) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:15:57.647-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:15:57.648-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:15:57.647-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:15:57.652-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:15:57.651-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 1, in <module>
+    from dag import dag
+ModuleNotFoundError: No module named 'dag'
+[2025-08-06T14:15:57.652-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:15:57.670-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.037 seconds
+[2025-08-06T14:16:29.167-0400] {processor.py:186} INFO - Started process (PID=23125) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:16:29.167-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:16:29.168-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:16:29.168-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:16:29.171-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:16:29.170-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 1, in <module>
+    from dag import dag
+ModuleNotFoundError: No module named 'dag'
+[2025-08-06T14:16:29.172-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:16:29.190-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.027 seconds
+[2025-08-06T14:17:02.331-0400] {processor.py:186} INFO - Started process (PID=23247) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:17:02.336-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:17:02.338-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:17:02.337-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:17:02.343-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:17:02.342-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 1, in <module>
+    from dag import dag
+ModuleNotFoundError: No module named 'dag'
+[2025-08-06T14:17:02.343-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:17:02.367-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.042 seconds
+[2025-08-06T14:17:36.789-0400] {processor.py:186} INFO - Started process (PID=23375) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:17:36.790-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:17:36.791-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:17:36.791-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:17:36.796-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:17:36.795-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 1, in <module>
+    from dag import DAG
+ModuleNotFoundError: No module named 'dag'
+[2025-08-06T14:17:36.797-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:17:36.815-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.032 seconds
+[2025-08-06T14:18:09.939-0400] {processor.py:186} INFO - Started process (PID=23499) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:18:09.949-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:18:09.950-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:18:09.949-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:18:09.952-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:18:09.952-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 1, in <module>
+    from dag import DAG
+ModuleNotFoundError: No module named 'dag'
+[2025-08-06T14:18:09.953-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:18:09.969-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.034 seconds
+[2025-08-06T14:18:42.492-0400] {processor.py:186} INFO - Started process (PID=23617) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:18:42.493-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:18:42.495-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:18:42.494-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:18:42.499-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:18:42.497-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 18, in <module>
+    start_date = datetime('8-6-2025'),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2025-08-06T14:18:42.499-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:18:42.531-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.043 seconds
+[2025-08-06T14:19:16.482-0400] {processor.py:186} INFO - Started process (PID=23763) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:19:16.487-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:19:16.488-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:19:16.488-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:19:16.490-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:19:16.490-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 18, in <module>
+    start_date = datetime('8-6-2025'),
+                 ^^^^^^^^^^^^^^^^^^^^
+TypeError: 'str' object cannot be interpreted as an integer
+[2025-08-06T14:19:16.491-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:19:16.507-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.029 seconds
+[2025-08-06T14:19:48.022-0400] {processor.py:186} INFO - Started process (PID=23877) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:19:48.023-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:19:48.025-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:19:48.024-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:19:48.035-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:19:48.033-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:19:48.037-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:19:48.052-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.034 seconds
+[2025-08-06T14:20:17.975-0400] {processor.py:186} INFO - Started process (PID=23997) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:20:17.985-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:20:17.986-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:20:17.986-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:20:17.995-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:20:17.993-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:20:17.996-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:20:18.014-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.043 seconds
+[2025-08-06T14:20:49.468-0400] {processor.py:186} INFO - Started process (PID=24106) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:20:49.469-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:20:49.470-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:20:49.470-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:20:49.478-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:20:49.476-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:20:49.479-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:20:49.498-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.034 seconds
+[2025-08-06T14:21:23.840-0400] {processor.py:186} INFO - Started process (PID=24227) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:21:23.850-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:21:23.851-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:21:23.851-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:21:23.859-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:21:23.857-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:21:23.860-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:21:23.875-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.039 seconds
+[2025-08-06T14:21:58.397-0400] {processor.py:186} INFO - Started process (PID=24351) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:21:58.398-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:21:58.399-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:21:58.398-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:21:58.406-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:21:58.404-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:21:58.407-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:21:58.424-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.032 seconds
+[2025-08-06T14:22:31.066-0400] {processor.py:186} INFO - Started process (PID=24571) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:22:31.067-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:22:31.068-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:22:31.067-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:22:31.076-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:22:31.074-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:22:31.077-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:22:31.093-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.031 seconds
+[2025-08-06T14:23:03.977-0400] {processor.py:186} INFO - Started process (PID=24796) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:23:03.978-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:23:03.979-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:23:03.979-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:23:03.987-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:23:03.985-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:23:03.988-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:23:04.003-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.030 seconds
+[2025-08-06T14:23:34.952-0400] {processor.py:186} INFO - Started process (PID=25056) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:23:34.953-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:23:34.953-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:23:34.953-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:23:34.961-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:23:34.960-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:23:34.962-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:23:34.978-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.032 seconds
+[2025-08-06T14:24:05.393-0400] {processor.py:186} INFO - Started process (PID=25173) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:24:05.394-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:24:05.395-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:24:05.395-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:24:05.402-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:24:05.401-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:24:05.403-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:24:05.419-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.032 seconds
+[2025-08-06T14:24:40.891-0400] {processor.py:186} INFO - Started process (PID=25322) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:24:40.892-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:24:40.893-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:24:40.892-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:24:40.900-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:24:40.898-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:24:40.901-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:24:40.916-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.030 seconds
+[2025-08-06T14:25:15.014-0400] {processor.py:186} INFO - Started process (PID=25521) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:25:15.022-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:25:15.024-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:25:15.023-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:25:15.031-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:25:15.029-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:25:15.032-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:25:15.048-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.039 seconds
+[2025-08-06T14:26:11.673-0400] {processor.py:186} INFO - Started process (PID=25765) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:26:11.677-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:26:11.679-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:26:11.679-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:26:11.687-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:26:11.685-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:26:11.688-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:26:11.704-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.035 seconds
+[2025-08-06T14:26:46.240-0400] {processor.py:186} INFO - Started process (PID=25916) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:26:46.241-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:26:46.242-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:26:46.241-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:26:46.249-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:26:46.248-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:26:46.250-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:26:46.267-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.032 seconds
+[2025-08-06T14:27:18.405-0400] {processor.py:186} INFO - Started process (PID=26057) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:27:18.406-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:27:18.407-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:27:18.407-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:27:18.415-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:27:18.413-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:27:18.416-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:27:18.431-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.031 seconds
+[2025-08-06T14:27:53.517-0400] {processor.py:186} INFO - Started process (PID=26191) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:27:53.521-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:27:53.522-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:27:53.522-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:27:53.530-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:27:53.529-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:27:53.531-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:27:53.547-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.035 seconds
+[2025-08-06T14:28:27.497-0400] {processor.py:186} INFO - Started process (PID=26340) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:28:27.501-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:28:27.503-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:28:27.502-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:28:27.512-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:28:27.510-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:28:27.514-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:28:27.531-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.039 seconds
+[2025-08-06T14:29:00.814-0400] {processor.py:186} INFO - Started process (PID=26489) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:29:00.818-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:29:00.820-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:29:00.819-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:29:00.827-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:29:00.825-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:29:00.828-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:29:00.844-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.036 seconds
+[2025-08-06T14:29:34.259-0400] {processor.py:186} INFO - Started process (PID=26632) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:29:34.261-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:29:34.262-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:29:34.262-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:29:34.272-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:29:34.359-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:29:34.358-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:dbt_dag
+[2025-08-06T14:29:34.369-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:29:34.369-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:dbt_dag
+[2025-08-06T14:29:34.378-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:29:34.378-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:dbt_dag
+[2025-08-06T14:29:34.393-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:29:34.392-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:dbt_dag
+[2025-08-06T14:29:34.401-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:29:34.401-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:dbt_dag
+[2025-08-06T14:29:34.409-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:29:34.409-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:dbt_dag
+[2025-08-06T14:29:34.418-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:29:34.417-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:dbt_dag
+[2025-08-06T14:29:34.418-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:29:34.418-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:29:34.426-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:29:34.426-0400] {dag.py:3262} INFO - Creating ORM DAG for dbt_dag
+[2025-08-06T14:29:34.433-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:29:34.433-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:29:34.453-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.200 seconds
+[2025-08-06T14:30:06.024-0400] {processor.py:186} INFO - Started process (PID=26766) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:30:06.024-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:30:06.026-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:30:06.025-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:30:06.033-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:30:06.045-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:30:06.044-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:30:06.058-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:30:06.057-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:30:06.073-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.055 seconds
+[2025-08-06T14:30:46.881-0400] {processor.py:186} INFO - Started process (PID=27050) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:30:46.885-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:30:46.887-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:30:46.886-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:30:46.896-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:30:46.908-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:30:46.908-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:30:46.923-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:30:46.923-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:30:46.941-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.066 seconds
+[2025-08-06T14:31:25.435-0400] {processor.py:186} INFO - Started process (PID=27191) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:31:25.436-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:31:25.437-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:31:25.437-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:31:25.445-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:31:25.457-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:31:25.457-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:31:25.470-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:31:25.470-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:31:25.488-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.058 seconds
+[2025-08-06T14:32:01.046-0400] {processor.py:186} INFO - Started process (PID=27317) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:32:01.047-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:32:01.048-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:32:01.048-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:32:01.056-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:32:01.069-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:32:01.069-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:32:01.086-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:32:01.086-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:32:01.103-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.063 seconds
+[2025-08-06T14:32:35.462-0400] {processor.py:186} INFO - Started process (PID=27443) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:32:35.463-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:32:35.465-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:32:35.464-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:32:35.473-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:32:35.485-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:32:35.485-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:32:35.499-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:32:35.499-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:32:35.515-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.063 seconds
+[2025-08-06T14:33:09.770-0400] {processor.py:186} INFO - Started process (PID=27645) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:33:09.770-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:33:09.772-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:33:09.771-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:33:09.780-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:33:09.790-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:33:09.790-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:33:09.803-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:33:09.803-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:33:09.817-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.053 seconds
+[2025-08-06T14:33:44.925-0400] {processor.py:186} INFO - Started process (PID=27773) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:33:44.934-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:33:44.936-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:33:44.935-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:33:44.944-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:33:44.959-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:33:44.959-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:33:44.974-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:33:44.974-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:33:44.990-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.070 seconds
+[2025-08-06T14:34:44.044-0400] {processor.py:186} INFO - Started process (PID=28154) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:34:44.048-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:34:44.049-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:34:44.049-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:34:44.057-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:34:44.127-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:34:44.127-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:34:44.139-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:34:44.139-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:34:44.155-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.117 seconds
+[2025-08-06T14:35:38.269-0400] {processor.py:186} INFO - Started process (PID=28397) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:35:38.270-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:35:38.272-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:35:38.271-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:35:38.283-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:35:38.296-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:35:38.296-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:35:38.314-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:35:38.314-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:35:38.334-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.072 seconds
+[2025-08-06T14:36:10.907-0400] {processor.py:186} INFO - Started process (PID=28538) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:36:10.907-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:36:10.909-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:36:10.908-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:36:10.917-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:36:10.931-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:36:10.931-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:36:10.948-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:36:10.948-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:36:10.965-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.064 seconds
+[2025-08-06T14:36:43.817-0400] {processor.py:186} INFO - Started process (PID=28657) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:36:43.818-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:36:43.820-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:36:43.819-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:36:43.828-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:36:43.841-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:36:43.841-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:36:43.857-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:36:43.857-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:36:43.876-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.065 seconds
+[2025-08-06T14:37:15.812-0400] {processor.py:186} INFO - Started process (PID=28786) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:37:15.816-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:37:15.817-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:37:15.817-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:37:15.825-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:37:15.840-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:37:15.840-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:37:15.856-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:37:15.856-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:37:15.874-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.067 seconds
+[2025-08-06T14:37:50.184-0400] {processor.py:186} INFO - Started process (PID=28908) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:37:50.184-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:37:50.186-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:37:50.185-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:37:50.194-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:37:50.192-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:37:50.195-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:37:50.213-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.034 seconds
+[2025-08-06T14:38:23.464-0400] {processor.py:186} INFO - Started process (PID=29025) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:38:23.469-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:38:23.470-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:38:23.469-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:38:23.477-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:38:23.476-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:38:23.478-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:38:23.495-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.035 seconds
+[2025-08-06T14:38:57.943-0400] {processor.py:186} INFO - Started process (PID=29201) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:38:57.944-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:38:57.945-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:38:57.945-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:38:57.953-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:38:57.951-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:38:57.954-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:38:57.971-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.034 seconds
+[2025-08-06T14:39:32.307-0400] {processor.py:186} INFO - Started process (PID=29324) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:39:32.311-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:39:32.312-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:39:32.311-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:39:32.319-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:39:32.318-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:39:32.320-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:39:32.336-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.034 seconds
+[2025-08-06T14:40:32.318-0400] {processor.py:186} INFO - Started process (PID=29547) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:40:32.322-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:40:32.323-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:40:32.323-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:40:32.332-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:40:32.330-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:40:32.334-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:40:32.357-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.045 seconds
+[2025-08-06T14:41:07.799-0400] {processor.py:186} INFO - Started process (PID=29688) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:41:07.801-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:41:07.802-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:41:07.802-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:41:07.810-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:41:07.808-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:41:07.811-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:41:07.828-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.034 seconds
+[2025-08-06T14:41:41.047-0400] {processor.py:186} INFO - Started process (PID=29843) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:41:41.048-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:41:41.049-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:41:41.049-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:41:41.057-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:41:41.055-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:41:41.058-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:41:41.073-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.030 seconds
+[2025-08-06T14:42:11.840-0400] {processor.py:186} INFO - Started process (PID=29957) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:42:11.843-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:42:11.844-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:42:11.844-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:42:11.851-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:42:11.850-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:42:11.852-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:42:11.868-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.033 seconds
+[2025-08-06T14:42:43.641-0400] {processor.py:186} INFO - Started process (PID=30064) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:42:43.642-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:42:43.643-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:42:43.642-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:42:43.650-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:42:43.649-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:42:43.651-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:42:43.668-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.032 seconds
+[2025-08-06T14:43:15.430-0400] {processor.py:186} INFO - Started process (PID=30192) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:43:15.431-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:43:15.432-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:43:15.432-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:43:15.440-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:43:15.438-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:43:15.441-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:43:15.459-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.034 seconds
+[2025-08-06T14:43:49.333-0400] {processor.py:186} INFO - Started process (PID=30299) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:43:49.333-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:43:49.335-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:43:49.334-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:43:49.343-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:43:49.342-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:43:49.345-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:43:49.362-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.036 seconds
+[2025-08-06T14:44:21.339-0400] {processor.py:186} INFO - Started process (PID=30456) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:44:21.350-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:44:21.351-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:44:21.351-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:44:21.358-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:44:21.357-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 24, in <module>
+    with TaskGroup(task_id='dbt_tasks') as dbt_group:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: TaskGroup.__init__() got an unexpected keyword argument 'task_id'
+[2025-08-06T14:44:21.358-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:44:21.376-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.043 seconds
+[2025-08-06T14:45:17.006-0400] {processor.py:186} INFO - Started process (PID=30675) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:45:17.010-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:45:17.011-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:45:17.011-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:45:17.013-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:45:17.013-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 24
+    with TaskGroup(group_id.task_id='dbt_tasks') as dbt_group:
+                   ^^^^^^^^^^^^^^^^^
+SyntaxError: expression cannot contain assignment, perhaps you meant "=="?
+[2025-08-06T14:45:17.014-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:45:17.030-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.030 seconds
+[2025-08-06T14:45:45.194-0400] {processor.py:186} INFO - Started process (PID=30818) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:45:45.194-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:45:45.195-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:45:45.195-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:45:45.204-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:45:45.203-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:45:45.205-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:45:45.223-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.034 seconds
+[2025-08-06T14:46:16.744-0400] {processor.py:186} INFO - Started process (PID=30932) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:46:16.745-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:46:16.747-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:46:16.746-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:46:16.756-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:46:16.754-0400] {dagbag.py:387} ERROR - Failed to import: /home/huynguyen2741/airflow/dags/dbt_dag.py
+Traceback (most recent call last):
+  File "/home/huynguyen2741/airflow_venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/huynguyen2741/airflow/dags/dbt_dag.py", line 44, in <module>
+    start >> dbt_tasks >> end
+             ^^^^^^^^^
+NameError: name 'dbt_tasks' is not defined. Did you mean: 'dbt_test'?
+[2025-08-06T14:46:16.758-0400] {processor.py:927} WARNING - No viable dags retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:46:16.775-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.037 seconds
+[2025-08-06T14:46:48.965-0400] {processor.py:186} INFO - Started process (PID=31109) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:46:48.965-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:46:48.967-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:46:48.966-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:46:48.976-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag1' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:46:49.088-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:46:49.087-0400] {override.py:1930} INFO - Created Permission View: can edit on DAG:dbt_dag1
+[2025-08-06T14:46:49.098-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:46:49.098-0400] {override.py:1930} INFO - Created Permission View: can read on DAG:dbt_dag1
+[2025-08-06T14:46:49.110-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:46:49.109-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG:dbt_dag1
+[2025-08-06T14:46:49.124-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:46:49.124-0400] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:dbt_dag1
+[2025-08-06T14:46:49.133-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:46:49.133-0400] {override.py:1930} INFO - Created Permission View: can read on DAG Run:dbt_dag1
+[2025-08-06T14:46:49.144-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:46:49.144-0400] {override.py:1930} INFO - Created Permission View: can create on DAG Run:dbt_dag1
+[2025-08-06T14:46:49.160-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:46:49.159-0400] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:dbt_dag1
+[2025-08-06T14:46:49.160-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:46:49.160-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:46:49.169-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:46:49.168-0400] {dag.py:3262} INFO - Creating ORM DAG for dbt_dag1
+[2025-08-06T14:46:49.175-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:46:49.175-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag1 to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:46:49.196-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.237 seconds
+[2025-08-06T14:47:21.293-0400] {processor.py:186} INFO - Started process (PID=31228) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:47:21.297-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:47:21.298-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:47:21.298-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:47:21.307-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag1' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:47:21.323-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:47:21.323-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:47:21.340-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:47:21.340-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag1 to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:47:21.357-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.071 seconds
+[2025-08-06T14:48:10.230-0400] {processor.py:186} INFO - Started process (PID=31601) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:48:10.240-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:48:10.242-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:48:10.241-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:48:10.252-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag1' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:48:10.265-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:48:10.265-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:48:10.281-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:48:10.281-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag1 to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:48:10.299-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.075 seconds
+[2025-08-06T14:48:54.561-0400] {processor.py:186} INFO - Started process (PID=31764) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:48:54.565-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:48:54.567-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:48:54.566-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:48:54.575-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag1' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:48:54.586-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:48:54.586-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:48:54.600-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:48:54.600-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag1 to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:48:54.615-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.059 seconds
+[2025-08-06T14:49:54.058-0400] {processor.py:186} INFO - Started process (PID=31984) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:49:54.062-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:49:54.064-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:49:54.064-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:49:54.072-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag1' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:49:54.086-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:49:54.086-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:49:54.103-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:49:54.102-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag1 to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:49:54.119-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.066 seconds
+[2025-08-06T14:50:27.311-0400] {processor.py:186} INFO - Started process (PID=32105) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:50:27.311-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:50:27.312-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:50:27.312-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:50:27.321-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag1' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:50:27.332-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:50:27.332-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:50:27.346-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:50:27.346-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag1 to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:50:27.361-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.056 seconds
+[2025-08-06T14:50:59.512-0400] {processor.py:186} INFO - Started process (PID=32220) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:50:59.513-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:50:59.515-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:50:59.514-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:50:59.523-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag1' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:50:59.536-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:50:59.536-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:50:59.551-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:50:59.551-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag1 to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:50:59.567-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.061 seconds
+[2025-08-06T14:51:30.509-0400] {processor.py:186} INFO - Started process (PID=32336) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:51:30.510-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:51:30.511-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:51:30.510-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:51:30.519-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag1' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:51:30.532-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:51:30.532-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:51:30.547-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:51:30.547-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag1 to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:51:30.565-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.060 seconds
+[2025-08-06T14:52:01.441-0400] {processor.py:186} INFO - Started process (PID=32453) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:52:01.446-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:52:01.447-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:52:01.447-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:52:01.455-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag1' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:52:01.466-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:52:01.466-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:52:01.479-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:52:01.479-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag1 to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:52:01.494-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.058 seconds
+[2025-08-06T14:52:32.765-0400] {processor.py:186} INFO - Started process (PID=32588) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:52:32.766-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:52:32.767-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:52:32.767-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:52:32.776-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag1' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:52:32.791-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:52:32.790-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:52:32.807-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:52:32.807-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag1 to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:52:32.826-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.066 seconds
+[2025-08-06T14:53:03.773-0400] {processor.py:186} INFO - Started process (PID=32758) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:53:03.778-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:53:03.780-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:53:03.779-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:53:03.789-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag1' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:53:03.803-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:53:03.803-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:53:03.819-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:53:03.819-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag1 to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:53:03.837-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.069 seconds
+[2025-08-06T14:53:35.969-0400] {processor.py:186} INFO - Started process (PID=32966) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:53:35.971-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:53:35.972-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:53:35.972-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:53:35.981-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag1' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:53:35.994-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:53:35.994-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:53:36.011-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:53:36.010-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag1 to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:53:36.027-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.064 seconds
+[2025-08-06T14:54:31.966-0400] {processor.py:186} INFO - Started process (PID=33333) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:54:31.970-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:54:31.971-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:54:31.971-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:54:31.982-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag1' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:54:31.998-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:54:31.998-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:54:32.016-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:54:32.015-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag1 to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:54:32.033-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.073 seconds
+[2025-08-06T14:55:32.833-0400] {processor.py:186} INFO - Started process (PID=33632) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:55:32.835-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:55:32.836-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:55:32.835-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:55:32.844-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag1' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:55:32.856-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:55:32.856-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:55:32.870-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:55:32.870-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag1 to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:55:32.888-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.061 seconds
+[2025-08-06T14:56:04.509-0400] {processor.py:186} INFO - Started process (PID=33786) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:56:04.510-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:56:04.511-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:56:04.511-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:56:04.520-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag1' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:56:04.531-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:56:04.531-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:56:04.544-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:56:04.544-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag1 to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:56:04.559-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.055 seconds
+[2025-08-06T14:56:35.975-0400] {processor.py:186} INFO - Started process (PID=33944) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:56:35.980-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:56:35.981-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:56:35.981-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:56:35.989-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag1' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:56:36.001-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:56:36.000-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:56:36.013-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:56:36.013-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag1 to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:56:36.029-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.058 seconds
+[2025-08-06T14:57:07.526-0400] {processor.py:186} INFO - Started process (PID=34073) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:57:07.527-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:57:07.528-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:57:07.528-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:57:07.537-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag1' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:57:07.548-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:57:07.548-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:57:07.562-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:57:07.562-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag1 to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:57:07.578-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.056 seconds
+[2025-08-06T14:58:06.031-0400] {processor.py:186} INFO - Started process (PID=34331) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:58:06.036-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:58:06.037-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:58:06.036-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:58:06.045-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag1' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:58:06.056-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:58:06.056-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:58:06.068-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:58:06.068-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag1 to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:58:06.085-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.060 seconds
+[2025-08-06T14:58:38.120-0400] {processor.py:186} INFO - Started process (PID=34474) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:58:38.123-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:58:38.125-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:58:38.124-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:58:38.135-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag1' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:58:38.159-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:58:38.159-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:58:38.174-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:58:38.173-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag1 to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:58:38.190-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.083 seconds
+[2025-08-06T14:59:08.515-0400] {processor.py:186} INFO - Started process (PID=34588) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:59:08.519-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:59:08.520-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:59:08.520-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:59:08.528-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag1' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:59:08.539-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:59:08.539-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:59:08.552-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:59:08.552-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag1 to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:59:08.568-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.058 seconds
+[2025-08-06T14:59:42.906-0400] {processor.py:186} INFO - Started process (PID=34715) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:59:42.910-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T14:59:42.911-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:59:42.911-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:59:42.919-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag1' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T14:59:42.931-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:59:42.931-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T14:59:42.945-0400] {logging_mixin.py:190} INFO - [2025-08-06T14:59:42.945-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag1 to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T14:59:42.961-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.061 seconds
+[2025-08-06T15:00:15.087-0400] {processor.py:186} INFO - Started process (PID=34831) to work on /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T15:00:15.087-0400] {processor.py:914} INFO - Processing file /home/huynguyen2741/airflow/dags/dbt_dag.py for tasks to queue
+[2025-08-06T15:00:15.089-0400] {logging_mixin.py:190} INFO - [2025-08-06T15:00:15.088-0400] {dagbag.py:588} INFO - Filling up the DagBag from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T15:00:15.097-0400] {processor.py:925} INFO - DAG(s) 'dbt_dag1' retrieved from /home/huynguyen2741/airflow/dags/dbt_dag.py
+[2025-08-06T15:00:15.109-0400] {logging_mixin.py:190} INFO - [2025-08-06T15:00:15.109-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-08-06T15:00:15.123-0400] {logging_mixin.py:190} INFO - [2025-08-06T15:00:15.123-0400] {dag.py:4180} INFO - Setting next_dagrun for dbt_dag1 to 2025-08-06 00:00:00+00:00, run_after=2025-08-07 00:00:00+00:00
+[2025-08-06T15:00:15.139-0400] {processor.py:208} INFO - Processing /home/huynguyen2741/airflow/dags/dbt_dag.py took 0.058 seconds
